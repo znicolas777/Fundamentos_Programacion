@@ -1,0 +1,5 @@
+nombre = str(input("Ingresa tu nombre ")).upper()
+apellido = str(input("Ingrese tu apellido ")).upper()
+print("Tu nombre es {nombre} {apellido} ")
+len = len (nombre) + len (apellido) 
+print("Total de caracteres del nombre {len} ")
